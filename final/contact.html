@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Contact</title>
+    <link rel="stylesheet" href='final.css'>
+    <link rel="stylesheet" media="print" href="print.css">
+</head>
+<!--Embedded style for form-->
+<style>
+    label {
+        float: left; display: block;
+        text-align: right;
+        width: 150px;
+        padding-right: 20px;
+        padding-top: 10px;
+}
+
+    form {
+        background-color:  rgb(205, 218, 247);
+        width: 450px;
+        padding: 20px;
+        margin: auto;
+        font-size: 20px;
+}
+
+    .label {
+        padding-top: 30px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+}
+
+    input {
+        display: block;
+        margin-top: 10px;
+}
+
+    textarea {
+        display: block;
+        margin-top: 10px;
+}
+
+    input[type="submit"] {
+        margin: auto;
+        margin-top: 20px;
+}
+</style>
+<body>
+    <div id="wrapper">
+    <header>
+        <!--The title in the header-->
+        <h1><a href="final.html"><span class="destination">The Travel Guide</span></a></h1>
+    </header>
+            <!--This contains the 5 pages and their nav links-->
+            <nav>
+                <ul>
+                    <li><a href="final.html">Home</a></li>
+
+                    <li><a href="adventurous.html">Adventurous</a></li>
+                
+                    <li><a href="beach.html">Beach</a></li>
+                   
+                    <li><a href="historical.html">Historical</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <!--This contains photos to visually support the nav bar-->
+                <div id="gallery">
+        
+                    <a><img src="hiking.jpg" alt="Acadia National Park" width=100% height="155px"></a>
+        
+                    <a><img src="beach.jpg" alt="Seista Key Beach" width=100% height="155px"></a>
+                   
+                    <a><img src="food.jpg" alt="Epcot" width=100% height="155px"></a>
+                    
+                    <a><img src="history.jpg" alt="Lincoln Memorial" width=100% height="155px"></a>
+                    
+                </div>
+                <hr><!--Contact paragraph above form-->
+                <div class="contact">
+                    <h2>
+                        Need Help?
+                    </h2>
+                    <p>
+                        Contact us with any inquiries about a future vaction or any questions about our services!
+                    </p>
+                </div>
+                <!--Contact form with 6 available entries-->
+                <div class="label">
+                    <form>
+                        <label for="name">Name: </label> <input type="text" name="name" id="name" cols="25" required="required"><br>
+                        <label for="email">Email: </label> <input type="email" name="email" id="email" cols="25"  required="required"><br>                        
+                        <label for="destination">Destination: </label> <input type="text" name="destination" cols="25" id="destination" required="required"><br>                        
+                        <label for="arrival">Arrival: </label> <input type="date" name="arrival" id="arrival"  ><br>
+                        <label for="leave">Departure: </label> <input type="date" name="leave" id="leave" ><br>
+                        <label for="feedback">Request: </label> <textarea name="feedback" id="feedback" rows="4" cols="22" required="required"></textarea> 
+                            <input type="submit" value="Contact Us!" maxlength="500" required="required">
+                    
+                    </form>
+                </div>
+        </main>
+        <!--Links to the contact page-->
+        <footer>
+            The Travel Guide 2020 <br>
+            <a href="contact.html">Contact Us!</a><br>
+        </footer>
+    </div>
+</body>
+</html>

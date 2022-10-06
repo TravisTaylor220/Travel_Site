@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+}
+
+#gallery {
+    display: none;
+}
+
+iframe {
+    display: none;
+}
+
+header {
+    background: none;
+    background-color: none;
+  
+} 
+
+header a:visited { 
+    color: black;
+}
+
+nav a:visited { 
+    color: black;
+}
+
+.flex-container {
+    display: none;
+}
+
+h2 a {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+form {
+    background-color: white !important;
+}
+
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+th {
+    background-color: white;
+}
